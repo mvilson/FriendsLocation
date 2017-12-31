@@ -11,7 +11,7 @@ namespace FL.Tests
     {
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
-        public void InsertAmigo_PessoaNull_OutOfRangeExceptionTest()
+        public void InsertAmigo_PessoaNull_OutOfRangeExceptionTest() 
         {
             Pessoa pessoa = null;
             PessoasBusiness pessoabus = new PessoasBusiness();
